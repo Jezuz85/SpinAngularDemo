@@ -36,7 +36,7 @@
   {
     "outputFileName": "wwwroot/spin-sys/dist/css/PermissionDeny.min.css",
     "inputFiles": [
-      "wwwroot/spin-sys/src/css/PermissionDeny.css"
+        "wwwroot/spin-sys/src/css/PermissionDeny.css"
     ]
   }
 ]

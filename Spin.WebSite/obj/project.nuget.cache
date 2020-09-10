@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NExLNEojr144giXTTNyAhjMckDn8T0ku692HeI0hdbJYnAh4SzBJfidKY8SZUugCl6JACIJh4Tdm2t9eZkhF/Q==",
+  "dgSpecHash": "NgWAJBFkVts8udTXcb+01h0KFFiHSDeKiN3VIvB2+2XKRcZHkpe3IYG+Tn6/oCBEI73P6QT6H3Tidkut0VN4ng==",
   "success": true,
-  "projectFilePath": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj",
+  "projectFilePath": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

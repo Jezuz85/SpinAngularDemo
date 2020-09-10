@@ -9821,11 +9821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj",
       "projectName": "Spin.WebSite",
-      "projectPath": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj",
+      "projectPath": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\obj\\",
+      "outputPath": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -9879,7 +9879,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

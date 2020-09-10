@@ -1,14 +1,15 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "./wwwroot/clientapp/out-tsc/app",
     "types": []
   },
   "files": [
-    "ClientApp/main.ts",
-    "ClientApp/polyfills.ts"
+    "ClientApp/src/main.ts",
+    "ClientApp/src/polyfills.ts"
   ],
   "include": [
-    "ClientApp/**/*.d.ts"
+    "ClientApp/src/**/*.d.ts"
   ]
 }
