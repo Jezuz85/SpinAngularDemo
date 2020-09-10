@@ -11,7 +11,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       module.exports = __webpack_require__(
-      /*! C:\Users\User\Downloads\demo angular\angular10\Spin.WebSite\ClientApp\src\styles.css */
+      /*! C:\Workspace\Website\SpinAngularDemo\Spin.WebSite\ClientApp\src\styles.css */
       "p4Xx");
       /***/
     },

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MyPageService } from './service/my-page.service'; 
+import { MyPageService } from './core/services/my-page.service'; 
 
 @Component({
     selector: 'my-template',

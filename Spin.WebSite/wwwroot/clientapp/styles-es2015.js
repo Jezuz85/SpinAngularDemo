@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\User\Downloads\demo angular\angular10\Spin.WebSite\ClientApp\src\styles.css */"p4Xx");
+module.exports = __webpack_require__(/*! C:\Workspace\Website\SpinAngularDemo\Spin.WebSite\ClientApp\src\styles.css */"p4Xx");
 
 
 /***/ }),

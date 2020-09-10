@@ -466,7 +466,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! C:\Users\User\Downloads\demo angular\angular10\Spin.WebSite\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+      /*! C:\Workspace\Website\SpinAngularDemo\Spin.WebSite\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
       "mRIq");
 
       __webpack_require__(
@@ -474,7 +474,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! C:\Users\User\Downloads\demo angular\angular10\Spin.WebSite\ClientApp\src\polyfills.ts */
+      /*! C:\Workspace\Website\SpinAngularDemo\Spin.WebSite\ClientApp\src\polyfills.ts */
       "mjx1");
       /***/
     },

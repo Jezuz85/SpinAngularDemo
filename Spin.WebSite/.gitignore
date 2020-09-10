@@ -6,9 +6,9 @@ Spin.WebSite/tmp
 Spin.WebSite/out-tsc
 # Only exists if Bazel was run
 /bazel-out
-Spin.WebSite/bin/
-Spin.WebSite/node_modules/
-Spin.WebSite/wwwroot/
+/bin
+/wwwroot
+/obj
 /node_modules
 
 # dependencies

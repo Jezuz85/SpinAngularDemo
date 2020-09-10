@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj": {}
+    "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj": {
+    "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj",
+        "projectUniqueName": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj",
         "projectName": "Spin.WebSite",
-        "projectPath": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\Spin.WebSite.csproj",
+        "projectPath": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\Spin.WebSite.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\demo angular\\angular10\\Spin.WebSite\\obj\\",
+        "outputPath": "C:\\Workspace\\Website\\SpinAngularDemo\\Spin.WebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

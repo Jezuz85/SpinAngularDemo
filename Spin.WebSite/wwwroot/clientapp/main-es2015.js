@@ -7,41 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\User\Downloads\demo angular\angular10\Spin.WebSite\ClientApp\src\main.ts */"Ses/");
-
-
-/***/ }),
-
-/***/ "8aKc":
-/*!******************************************************!*\
-  !*** ./ClientApp/src/app/service/my-page.service.ts ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! @angular/common/http */ "tk/3")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, core_1, i0, i1) {
-    "use strict";
-    Object.defineProperty(exports, "__esModule", { value: true });
-    exports.MyPageService = void 0;
-    class MyPageService {
-        constructor(http) {
-            this.http = http;
-        }
-        getAll() {
-            return this.http.get('/Api/Home/DemoApi/Get');
-        }
-    }
-    exports.MyPageService = MyPageService;
-    MyPageService.ɵfac = function MyPageService_Factory(t) { return new (t || MyPageService)(i0.ɵɵinject(i1.HttpClient)); };
-    MyPageService.ɵprov = i0.ɵɵdefineInjectable({ token: MyPageService, factory: MyPageService.ɵfac, providedIn: 'root' });
-    /*@__PURE__*/ (function () { i0.ɵsetClassMetadata(MyPageService, [{
-            type: core_1.Injectable,
-            args: [{
-                    providedIn: 'root'
-                }]
-        }], function () { return [{ type: i1.HttpClient }]; }, null); })();
-}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
-				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+module.exports = __webpack_require__(/*! C:\Workspace\Website\SpinAngularDemo\Spin.WebSite\ClientApp\src\main.ts */"Ses/");
 
 
 /***/ }),
@@ -137,7 +103,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! @angular/platform-browser */ "jhN1"), __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! ./app.component */ "iRwM"), __webpack_require__(/*! ./app-routing.module */ "Ywzg"), __webpack_require__(/*! ./service/my-page.service */ "8aKc"), __webpack_require__(/*! @angular/common/http */ "tk/3"), __webpack_require__(/*! @angular/common */ "ofXK"), __webpack_require__(/*! @angular/core */ "fXoL")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, platform_browser_1, core_1, app_component_1, app_routing_module_1, my_page_service_1, http_1, common_1, i0) {
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! @angular/platform-browser */ "jhN1"), __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! ./app.component */ "iRwM"), __webpack_require__(/*! ./app-routing.module */ "Ywzg"), __webpack_require__(/*! ./core/services/my-page.service */ "zzdl"), __webpack_require__(/*! @angular/common/http */ "tk/3"), __webpack_require__(/*! @angular/common */ "ofXK"), __webpack_require__(/*! @angular/core */ "fXoL")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, platform_browser_1, core_1, app_component_1, app_routing_module_1, my_page_service_1, http_1, common_1, i0) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AppModule = void 0;
@@ -181,7 +147,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! ./service/my-page.service */ "8aKc"), __webpack_require__(/*! @angular/common */ "ofXK")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, core_1, i0, i1, i2) {
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! ./core/services/my-page.service */ "zzdl"), __webpack_require__(/*! @angular/common */ "ofXK")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, core_1, i0, i1, i2) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     exports.AppComponent = void 0;
@@ -252,6 +218,40 @@ webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
 webpackEmptyAsyncContext.id = "zn8P";
+
+/***/ }),
+
+/***/ "zzdl":
+/*!************************************************************!*\
+  !*** ./ClientApp/src/app/core/services/my-page.service.ts ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;!(__WEBPACK_AMD_DEFINE_ARRAY__ = [__webpack_require__, exports, __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! @angular/core */ "fXoL"), __webpack_require__(/*! @angular/common/http */ "tk/3")], __WEBPACK_AMD_DEFINE_RESULT__ = (function (require, exports, core_1, i0, i1) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.MyPageService = void 0;
+    class MyPageService {
+        constructor(http) {
+            this.http = http;
+        }
+        getAll() {
+            return this.http.get('/Api/Home/DemoApi/Get');
+        }
+    }
+    exports.MyPageService = MyPageService;
+    MyPageService.ɵfac = function MyPageService_Factory(t) { return new (t || MyPageService)(i0.ɵɵinject(i1.HttpClient)); };
+    MyPageService.ɵprov = i0.ɵɵdefineInjectable({ token: MyPageService, factory: MyPageService.ɵfac, providedIn: 'root' });
+    /*@__PURE__*/ (function () { i0.ɵsetClassMetadata(MyPageService, [{
+            type: core_1.Injectable,
+            args: [{
+                    providedIn: 'root'
+                }]
+        }], function () { return [{ type: i1.HttpClient }]; }, null); })();
+}).apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+
 
 /***/ })
 
